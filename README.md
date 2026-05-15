@@ -18,7 +18,7 @@ I'm a **Product Manager with 3.5+ years** shipping enterprise SaaS — currently
 
 What makes me a little different from a typical PM:
 
-- I read API contracts, write **SQL**, and test endpoints in **Postman** myself — no waiting on engineering or data teams to unblock me.
+- I read API contracts, write **SQL**, and test endpoints in **Postman** myself — no waiting on engineering or data teams.
 - I built an **AI + Playwright delivery pipeline** that cut manual QA by **40%** and saved ~2 sprint days per release.
 - I use **Generative AI as a daily tool** — for PRDs, research, prototyping, QA scenarios, release notes — not as a buzzword.
 - I ship side projects on nights and weekends to prove that PMs *can* build the things they spec.
@@ -37,7 +37,23 @@ Independent weekend projects, built entirely on [Lovable](https://lovable.dev) (
 - **Prototype Generator** — polished HTML / React / wireframe mockups from a prompt
 - **Shareable links** — every PRD gets a public URL
 
-**Stack:** TanStack Start v1 · React 19 · Vite 7 · Tailwind v4 · Lovable Cloud (Postgres + RLS) · Lovable AI Gateway · Cloudflare Workers
+**Stack:** TanStack Start v1 · React 19 · Vite 7 · Tailwind v4 · Lovable Cloud · Lovable AI Gateway · Cloudflare Workers
+**Repo:** [ai-product-ops-stack](https://github.com/msachinsharmae-art)
+
+---
+
+### 🎯 [JobMatch](https://job-match1.lovable.app)
+> *AI-powered job discovery — scans 9+ job boards and ranks every result against your CV.*
+
+- **Multi-source scanning** — pulls jobs in parallel from LinkedIn, Naukri, Indeed, Google Jobs, Glassdoor, Foundit, Hirist, Instahyre, and Wellfound (via SerpAPI)
+- **AI match scoring** — every job scored **0–100** against your profile with reasoning (Gemini 2.5 Flash)
+- **CV-driven personalization** — target roles, locations, keywords, and CV summary drive matches
+- **Time filters** — last 24h / 7d / 30d using real source-posted dates
+- **One-click tailored cover letters** per job
+- **Status tracking** — new / saved / applied / rejected pipeline
+
+**Stack:** TanStack Start · React 19 · Tailwind v4 · shadcn/ui · Lovable Cloud (Postgres + Auth + RLS) · SerpAPI · Lovable AI Gateway
+**Repo:** [job-match1](https://github.com/msachinsharmae-art/job-match1)
 
 ---
 
